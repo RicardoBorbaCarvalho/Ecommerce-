@@ -2,10 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: open Sans;
+  font-family: "open Sans", sans-serif;
   text-decoration: none;
   list-style: none;
-  border: none;
 }
 
 .background {
@@ -48,6 +47,16 @@ header {
   color: #111;
   font-weight: 700;
   transition: 0.3s;
+}
+
+.cabeçalho-link a:hover {
+  color: #c8815f;
+}
+
+li {
+  display: block;
+  float: right;
+  margin: 0 auto;
 }
 
 .icon span {
@@ -102,7 +111,7 @@ section h1 {
 }
 
 .cards img {
-  width: 450px;
+  width: 350px;
   height: auto;
   transition: 0.35s ease;
 }
@@ -164,5 +173,67 @@ section h1 {
   margin-top: 3rem;
 }
 
+.container-roupas img:hover {
+  transform: scale(0.9) translateY(5px);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
 .roupa {
+  background-color: #c8815f;
+  color: #fff;
+}
+
+.roupa img {
+  width: 250px;
+  height: auto;
+  transition: 0.35s ease;
+}
+
+.marcas {
+  margin-top: 10rem;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+}
+
+.marcas img {
+  width: 180px;
+  height: auto;
+  background-color: aliceblue;
+}
+
+.Contato {
+  display: flex;
+  gap: 5rem;
+  justify-content: space-around;
+  background-color: #111;
+  padding: 8rem;
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+}
+
+.meio-contato h3 {
+  color: #fff;
+  font-size: 23px;
+  margin-bottom: 1.6rem;
+}
+
+.meio-contato h5 {
+  color: #555;
+  font-size: 15px;
+  font-weight: 600;
+}
+.meio-contato li a {
+  display: block;
+  color: #555;
+  font-weight: 600;
+  transition: 0.35s ease;
+}
+
+.footer {
+  text-align: center;
+  background-color: #111;
+  color: #fff;
 }
